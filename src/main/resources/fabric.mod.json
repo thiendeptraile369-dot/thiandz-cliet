@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "thiandzclient",
+  "version": "${version}",
+  "name": "Thiandz Client",
+  "description": "UI/HUD gọn gàng với nhiều chức năng hỗ trợ. / Clean UI & HUD with many helper features.",
+  "authors": ["Thiandz"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.thiandz.client.ThiandzClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
